@@ -36,11 +36,11 @@ function submitForm(e) {
   if (formObj.email&&formObj.message) {
     localStorage.removeItem(FORM_DATA);
   console.log(`Form Submited. Form is ${JSON.stringify(formObj)}`);
-  alert('форма отправлена');
+  alert('Данные отправлены');
   formObj = {};
   }
   else {
-    alert('заполните поля');
+    alert('Заполните все поля!');
     formInput();
   }
 }
