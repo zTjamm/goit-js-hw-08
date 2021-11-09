@@ -21,12 +21,12 @@ function formInput() {
   if (savedForm) {
     const parsedForm = JSON.parse(savedForm);
     if (parsedForm.email) {
-      data.email.value = parsedForm.email;
-      formObj.email =  data.email.value;
+      content.email.value = parsedForm.email;
+      formObj.email =  content.email.value;
     }
     if (parsedForm.message) {
-      data.message.value = parsedForm.message;
-      formObj.message =  data.message.value;
+      content.message.value = parsedForm.message;
+      formObj.message =  content.message.value;
     }
   }
 }
